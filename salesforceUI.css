@@ -1,0 +1,217 @@
+
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+}
+#header{
+    height:13%;
+    width:100%;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+#logo{
+    height: 70%;
+   
+}
+#logo img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.text{
+    padding:20px;
+    display:flex;
+    color:rgb(3, 3, 78)
+}
+.text:hover{
+    color: rgb(4, 126, 167);
+}
+#Contact{
+    
+    font-weight: lighter;
+}
+.icon{
+   padding:10px;
+   border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#login{
+    display:flex;
+    border-radius:50px;
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    padding:10px;
+    color:white;
+    background-color: green;
+}
+#try:hover{
+    background-color: rgb(2, 22, 2);
+}
+#fakeheader{
+    height:13%;
+    width:100%;
+}
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: white;
+}
+#strip{
+    width:100%;
+    height:10%;
+    background-color: rgb(4, 4, 82);
+    color:white;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+#strip u{
+    margin-left:20px;
+    
+}
+#content{
+    width:100%;
+    height:76%;
+    background: white;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+#box1{
+    width: 47%;
+    height: 90%;
+    background-color: white;
+}
+#box1 h1{
+    font-weight: 600;
+    color:rgb(4, 4, 83);
+    font-size:68px;
+    margin :10px;
+}
+#box1 p{
+    font-size:25px;
+    margin :10px;
+}
+#box2{
+    width: 47%;
+    height: 90%;
+    background-color: white;
+    
+}
+#heading{
+    width:100%;
+    height:16%;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    color:rgb(3, 3, 68);
+    background-color: white;
+}
+#btns{
+    display:flex;
+    text-align: center;
+   
+}
+#btn1{
+    width: 23%;
+    margin: 10px;
+    padding:10px 20px;
+    color:white;
+    background-color: rgb(7, 151, 199);
+    border-radius:5px;
+}
+#btn2{
+    width: 23%;
+    margin: 10px;
+    padding:10px 20px;
+    background-color:white;
+    color: rgb(7, 151, 199);
+    border:1px solid rgb(5, 145, 192);
+    border-radius:5px;
+   
+}
+#box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+    position: static; /* remove fixed on mobile for better flow */
+  }
+
+  #logo {
+    height: 50px;
+    width: 100px;
+  }
+
+  .text, #Contact, .icon, #login, #try {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  #fakeheader {
+    display: none;
+  }
+
+  #content {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  #box1, #box2 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  #box1 h1 {
+    font-size: 36px;
+  }
+
+  #box1 p {
+    font-size: 18px;
+  }
+
+  #btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #btn1, #btn2 {
+    width: 80%;
+  }
+
+  #heading h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+}
