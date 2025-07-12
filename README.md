@@ -12,7 +12,7 @@ This project replicates the structure and layout of Salesforce’s homepage. It 
 
 ## 🌐 Live Preview
 
-Check out the live version: [Salesforce UI Project](https://aiza-aslam.github.io/salesforce-ui/)
+Check out the live version: [Salesforce UI Project](https://ayza-aslam.github.io/salesforce-ui/)
 
 ## 📁 Tech Used
 
